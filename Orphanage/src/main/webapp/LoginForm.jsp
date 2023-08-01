@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="LoginCss.css">
+    <style type="text/css">
+        
+    </style>
+</head>
+<body onload="myFunction()">
+    <div class="header">
+        <div class="loginform">
+           <!--  <div class="logo">
+                <i class="uil uil-user logo_icon"></i>
+            </div> -->
+
+            <form action="UserLogin" method="post">
+                <h1>Sign In</h1>
+
+                <h4>ID</h4>
+                <input type="text" name="username" placeholder="Enter ID" autofocus="on">
+
+                <h4>Password</h4>
+                <input type="password" name="password" placeholder="Enter Password">
+                <br>
+                <input type="submit" value="Login"><br>
+                <a href="#">Sign Up</a><br>
+                <a href="#">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+    <script>
+function myFunction() {
+  alert("Invalid username or password");
+}
+</script>
+</body>
+</html>

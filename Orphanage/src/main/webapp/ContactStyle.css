@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    min-height: 70%;
+    background-image: url(AboutImg2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(11px);
+    height: 150vh; 
+    width: 90%;
+    text-align: center;
+  }
+
+p
+    {
+        
+        font-size: 25px;
+        font-style: oblique;
+    }
+    h3
+    {
+        font-size: 40px;
+    }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Helping Hand Form</title>
+<link rel="stylesheet" href="StyleH.css">
+
+</head>
+<body class="wapper">
+    
+	<div id="container">
+        <table>
+            <tr><div><h1>Helping Hand Form</h1></div>
+		
+		<div class="form-wrap">
+		  <h1>Registration</h1>
+		  <p>It's Free and Only takes a minute</p>
+        </tr>
+		
+		  <form action="HelpingInfo" enctype="multipart/form-data" method="post">
+
+            <tr><td>
+                <label for="Person Name">Person Name :<sup style="color:red;">*</sup></label></td>
+			    <td><input type="text" placeholder="Enter Person Name" name="PersonName" pattern="[a-zA-Z]+" required></td>
+			</tr>
+            <tr>
+
+			
+			<td><label for="Person Phone Number">Person Phone Number:<sup style="color:red;">*</sup></label></td>
+				<td><input type="text" placeholder="Enter Person Phone Number" name="PersonPhoneNumber" pattern="^(0|91)?[6-9]{1}[0-9]{9}$" required></td>
+            </tr>
+
+            <tr>
+
+                <td><div class="form-group">
+                    <label for="gender" required> Person Gender:<sup style="color:red;">*</sup></label></td>
+                    <td><select name="gender">
+                   <option name="gender" value="none" selected>Gender</option>
+                   <option name="gender" value="male">Male</option>
+                   <option name="gender" value="female">Female</option>
+                   <option name="gender" value="Other">Other</option>
+               </select>
+                </div>
+            </td>
+        </tr>
+
+
+                <tr>
+
+                <div class="form-group">
+                    <td><label for="Person Address">Person Address :<sup style="color:red;">*</sup></label></td>
+                    <td><input type="text" placeholder="Enter Person Address" name="PersonAddress" pattern="[a-zA-Z]+" required></td>
+                </div></tr>
+
+                <tr>
+
+                <div class="form-group">
+                    <td><label for="Child Location">Child Location :<sup style="color:red;">*</sup></label></td>
+                    <td><input type="text" placeholder="Enter Location Where Child Found" name="ChildLocation" pattern="[a-zA-Z]+" required></td>
+                </div></tr>
+
+                <tr>
+
+                    <div class="form-group">
+                        <td><label for="photo"> Person Aadhar Card:<sup style="color:red;">*</sup> </label></td>
+                        <td><input type="file" name="PersonAadharphoto" size="100" placeholder="Upload Person Aadhar Card" required /></td>
+                    </div> </tr>
+
+			                <tr>
+			
+			                <div class="form-group">
+			                    <td><label for="Police Complaint Letter"> Police Complaint Letter:</sup> </label></td> 
+			                    <td><input type="file" name="Policecomplaint" size="100" placeholder="Upload Police Complaint Letter"></td>
+			                </div></tr>
+
+			                <tr>
+			
+			                <td><button type="submit" >Submit</button></td>
+			            <td><button type="reset">Clear</button></td>
+			            </tr>
+            		</form>
+            	</div>
+        	</div>
+    	</table>
+	</body>
+</html>
+
+    
+    
+
+                
